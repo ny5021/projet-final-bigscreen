@@ -1,0 +1,19 @@
+DESCRIPTION DU MODE DE FONCTIONNEMENT DES ENTITES DU SITE WEB
+ 
+
+Il a été fait graçe à l'outil LUCIDCHART, qui est une plateforme web de création de diagrammes UML
+
+Le lien du projet sur l'outil web : 
+
+https://lucid.app/lucidchart/908efb6e-95c5-42ee-a96f-99797f44c670/edit?beaconFlowId=128FF3C860AE1B02&invitationId=inv_5691c632-c14a-4d4c-9e3d-d2fb1fb4bac9&page=L.BeP2~polPs#
+
+Description des relations entre les entités 
+
+1 - Le lien est unique entre administrateur. 
+C'est-à-dire, il y a un unique utilisateur qui est un administrateur
+
+2- Plusieurs utilisateurs poeuvent répondre à plusieurs questions
+
+3- Les memes réponses peuvent appartenir à plusieurs utilisateurs
+
+4- Chaque question peut avoir ou pas une ou plusieurs propositions
