@@ -17,3 +17,5 @@ C'est-à-dire, il y a un unique utilisateur qui est un administrateur
 3- Les memes réponses peuvent appartenir à plusieurs utilisateurs
 
 4- Chaque question peut avoir ou pas une ou plusieurs propositions
+
+5- Une reponse peut uniquement avoir une question 
