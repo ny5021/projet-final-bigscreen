@@ -1,0 +1,96 @@
+.grid-row-charts{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.col-a
+{
+    grid-area: a;
+    
+}
+.col-b{
+    grid-area: b;
+}
+.col-c
+{
+    grid-area: c;
+}
+.col-d
+{
+    grid-area: d;
+}
+
+.col-a,.col-b,.col-c,.col-d
+{
+    width: 100%;
+    height: auto;
+  
+}
+
+.error-icon
+{
+
+   display: none;
+
+}
+
+@media screen and (min-width:768px) {
+    .grid-row-charts{
+        display: grid;
+        gap: 1rem;
+        grid-template-areas: "a b" "c d";
+        grid-template-columns: repeat(2,1fr);
+
+
+    
+    }
+
+    .col-a,.col-b,.col-c,.col-d
+    {
+
+       height: 270px;
+    }
+    
+    .error-icon
+    {
+        display: block;
+        width: 35px;
+        height: 35px;
+        margin: 0 auto;
+
+    
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .grid-row-charts{
+        display: grid;
+        gap: 1rem;
+        grid-template-areas: "a b" "c d";
+        grid-template-columns: repeat(2,1fr);
+
+
+    
+    }
+
+    .col-a,.col-b,.col-c,.col-d
+    {
+
+       height: 340px;
+    }
+    
+  
+
+}
+
+
+
+
+
+
+
+

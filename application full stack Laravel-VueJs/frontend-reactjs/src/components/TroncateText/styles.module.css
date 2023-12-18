@@ -1,0 +1,6 @@
+
+.text-troncate{
+    overflow-x: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+}

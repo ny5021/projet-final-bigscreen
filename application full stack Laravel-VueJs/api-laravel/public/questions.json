@@ -1,0 +1,162 @@
+[
+    {
+        "body": "Votre adresse email",
+        "type": "B",
+        "required": true,
+        "is_email": true
+    },
+    {
+        "body": "Votre age",
+        "type": "B",
+        "required": true
+    },
+    {
+        "body": "Votre sexe",
+        "type": "A",
+        "propositions": [
+            "Homme",
+            "Femme",
+            "Ne préfère pas répondre"
+        ],
+        "required": true
+    },
+    {
+        "body": "Nombre de personnes dans votre foyer (adultes & enfants)",
+        "type": "C",
+        "required": true,
+        "min_val": 1,
+        "max_val": 5
+    },
+    {
+        "body": "Votre profession",
+        "type": "B",
+        "required": true
+    },
+    {
+        "body": "Quel marque de casque VR utilisez-vous ?",
+        "type": "A",
+        "propositions": [
+            "Oculus Quest",
+            "Oculus Rift/s",
+            "HTC Vive",
+            "Windows Mixed Reality",
+            "Valve index"
+        ],
+        "required": true
+    },
+    {
+        "body": "Sur quel magasin d’application achetez vous des contenus VR ?",
+        "type": "A",
+        "propositions": [
+            "Steam VR",
+            "Oculus Store",
+            "Viveport",
+            "Windows Store"
+        ],
+        "required": true
+    },
+    {
+        "body": "Quel casque envisagez-vous d’acheter dans un futur proche ?",
+        "type": "A",
+        "propositions": [
+            "Oculus Quest",
+            "Oculus Go",
+            "HTC Vive Pro",
+            "PSVR",
+            "Autre",
+            "Aucun"
+        ],
+        "required": true
+    },
+    {
+        "body": "Au sein de votre foyer, combien de personnes utilisent votre casque VR pour regarder Bigscreen ?",
+        "type": "C",
+        "required": true,
+        "min_val": 1,
+        "max_val": 5
+    },
+    {
+        "body": "Vous utilisez principalement Bigscreen pour :",
+        "type": "A",
+        "propositions": [
+            "Regarder la TV en direct",
+            "Regarder des films",
+            "Travailler",
+            "Jouer en solo",
+            "Jouer en équipe"
+        ],
+        "required": true
+    },
+    {
+        "body": "Combien donnez-vous de point pour la qualité de l’image sur Bigscreen ?",
+        "type": "C",
+        "required": true,
+        "min_val": 1,
+        "max_val": 5
+    },
+    {
+        "body": "Combien donnez-vous de point pour le confort d’utilisation de l’interface Bigscreen ?",
+        "type": "C",
+        "required": true,
+        "min_val": 1,
+        "max_val": 5
+    },
+    {
+        "body": "Combien donnez-vous de point pour la connexion réseau de Bigscreen ?",
+        "type": "C",
+        "required": true,
+        "min_val": 1,
+        "max_val": 5
+    },
+    {
+        "body": "Combien donnez-vous de point pour la qualité des graphismes 3D dans Bigscreen ?",
+        "type": "C",
+        "required": true,
+        "min_val": 1,
+        "max_val": 5
+    },
+    {
+        "body": "Combien donnez-vous de point pour la qualité audio dans Bigscreen ?",
+        "type": "C",
+        "required": true,
+        "min_val": 1,
+        "max_val": 5
+    },
+    {
+        "body": "Aimeriez vous avoir des notifications plus précises au cours de vos sessions Bigscreen ?",
+        "type": "A",
+        "propositions": [
+            "Oui",
+            "Non"
+        ],
+        "required": true
+    },
+    {
+        "body": "Aimeriez vous pouvoir inviter un ami à rejoindre votre session via son smartphone ?",
+        "type": "A",
+        "propositions": [
+            "Oui",
+            "Non"
+        ],
+        "required": true
+    },
+    {
+        "body": "Aimeriez vous pouvoir enregistrer des émissions TV pour pouvoir les regarder ultérieurement ?",
+        "type": "C",
+        "required": true,
+        "min_val": 1,
+        "max_val": 5
+    },
+    {
+        "body": "Aimeriez-vous jouer à des jeux exclusifs sur votre Bigscreen ?",
+        "type": "C",
+        "required": true,
+        "min_val": 1,
+        "max_val": 5
+    },
+    {
+        "body": "Quelle nouvelle fonctionnalité devrait exister sur Bigscreen ?",
+        "type": "B",
+        "required": true
+    }
+]

@@ -1,0 +1,50 @@
+
+.admin-container
+{
+    display: grid;
+
+    grid-template-areas: 
+    "navbar navbar navbar" 
+    "main main main"
+    "main main main" ;
+}
+.admin-container .navbar{
+    grid-area: navbar;
+    width: 0px;
+    min-height: 50px;;
+
+}
+.admin-container .sidebar {
+    grid-area: sidebar;
+    width: 0px;
+   display: none;
+}
+
+
+.admin-container main{
+    padding:1rem;
+}
+
+
+
+@media screen and (min-width:992px) {
+
+    .admin-container{
+        grid-template-columns: 380px 1fr;
+        grid-gap: 1fr;
+        grid-template-areas: 
+        "sidebar navbar navbar" 
+        "sidebar main main"
+        "sidebar main main" ;
+
+    }
+
+    .admin-container .sidebar {
+        display: initial;
+        width: 100%;
+    } 
+
+  
+
+
+}
