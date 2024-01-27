@@ -7,11 +7,11 @@ const AnwserCard = ({answer}) => {
     if(answer.question.question_type == 'A'){
         result = <>
             {answer.question.propositions.map((option) => (
-                (option.proposition == answer.value)? <p key={option.id} className={style.answer}><IoMdRadioButtonOn /> {option.proposition}</p> : <p key={option.id} className={style.answer}><IoMdRadioButtonOff /> {option.proposition}</p>
+                (option.proposition == answer.value)? <p key={option.id} className={style.answer} style={{color: 'black'}}><IoMdRadioButtonOn /> {option.proposition}</p> : <p key={option.id} className={style.answer}><IoMdRadioButtonOff /> {option.proposition}</p>
             ))}
         </>
     }else{
-        result = <p className={style.answer}>{answer.value}</p>
+        result = <p className={style.answer} style={{color: 'black'}}>{answer.value}</p>
     }
     return (
         <div className="card p-4 position-relative">

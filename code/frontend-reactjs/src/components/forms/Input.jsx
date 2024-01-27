@@ -26,7 +26,7 @@ const Input = ({type, isEmail, options, name, max}) => {
             {
                 options.map((option, index) => (
                     <div key={index} className="form-check">
-                        <label className="form-check-label">
+                        <label className="form-check-label" style={{color: "black"}}>
                             <Field type={input.type} name={input.name} value={option.proposition} className="form-check-input" />
                             {option.proposition}
                         </label> 
